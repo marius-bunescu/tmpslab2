@@ -195,7 +195,7 @@ The Engine, Transmission, and Body classes are grouped into related families usi
         public abstract String getType();
     }
 
-##Conclusion
+## Conclusion
 In this project, we created a simple car dealership program in Java that allows customers to build and customize their own car and then purchase it. We used four different creational design patterns to implement this program: Abstract Factory, Builder, Singleton, and Factory Method.
 
 The Abstract Factory pattern was used to encapsulate the creation of different parts of a car, such as the engine, transmission, and body, into different factories. This allowed us to easily switch between different implementations of those parts without affecting the rest of the code.
